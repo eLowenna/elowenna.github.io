@@ -1,17 +1,21 @@
 ---
 import Navbar from "../components/navbar.astro"
 ---
-
 <html lang="en">
   <head>
     <meta charset="utf-8" />
-    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <meta name="viewport" content="width=device-width" />
-    <meta name="generator" content={Astro.generator} >
     <title>Astro</title>
+    <style>
+      h1 {
+        color: purple;
+        font-size: 4rem;
+      }
+    </style>
   </head>
   <body>
-	<Navbar /> 
-    <h1>This site made with Astro</h1>
+    <Navbar />    
+    <h1>Blog!</h1>
+      <h2>Posts coming soon!</h2>
   </body>
 </html>
